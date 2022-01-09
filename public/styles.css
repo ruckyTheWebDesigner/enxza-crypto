@@ -29,7 +29,7 @@ html {
 }
 
 .offcanvas-title {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .offcanvas {
@@ -40,20 +40,28 @@ html {
     #16222a
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #3a6073, #16222a);
+  /* text-align: center; */
 }
 
 .offcanvas-body ul li a {
-  padding-left: 10vh;
-  text-align: center;
+  /* padding-left: 10vh; */
+  /* text-align: center; */
+  text-decoration: none;
 }
 
-/* .side-button {
-  mmargin-left: 10vh;
+.offcanvas-body ul li a:hover {
+  color: #093028;
+}
+
+/* .side-button a {
+  text-decoration: none;
+  text-align: center;
+  padding: 0;
 } */
 
 .nav-ite {
-  padding-left: 15vh;
-  text-align: center;
+  /* padding-left: 15vh; */
+  /* text-align: center; */
 }
 
 h1 {
@@ -185,7 +193,7 @@ section {
 
 .btn-grad:hover {
   background-position: right center; /* change the direction of the change here */
-  color: #fff;
+  color: #093028;
   text-decoration: none;
 }
 
@@ -217,6 +225,10 @@ section {
 
 .front-link a:hover {
   color: #0f2027;
+}
+
+i.fa-bars:active {
+  border: 1px solid green;
 }
 
 i.fas {
@@ -310,10 +322,10 @@ i.fa-star {
     max-width: 100%;
     max-height: 100%;
   }
-  
+
   .brand-logos {
-  width: 100%;
-}
+    width: 100%;
+  }
 
   .hero {
     width: 100%;
